@@ -14,7 +14,7 @@
         <ul>
           <li><a href="#">Головна</a></li>
           <li><a href="#">Про нас</a></li>
-          <li><a href="#">Забронювати</a></li>
+          <li><a href="/hotel-house.html">Забронювати</a></li>
           <li><a href="/contacts.html">Контакти</a></li>
           <li><a href="#">UA</a></li>
         </ul>
@@ -44,7 +44,18 @@
         </p>
       </section>
       <section>
-        <!-- <form action=""></form> -->
+        <form autocomplete="on" novalidate>
+          <h2>Зворотній зв'язок</h2>
+          <label>
+            Ім'я
+            <input type="name" name="username" autofocus placeholder="Вкажіть ім'я">
+          </label>
+          <label>
+            Номер телефону
+            <input type="tel" name="phone" minlength="5" maxlength="12" placeholder="Вкажіть номер телефону">
+          </label>
+          <button type="submit">Запросити виклик</button>
+        </form>
       </section>
     </main>
     <footer>
