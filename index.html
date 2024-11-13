@@ -4,31 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Holiday Time</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="body">
     <header>
-      <nav>
-        <a href="/">
-          <img title="Photo is hotel" src="/images/logo.png" alt="Logo site" />
-        </a>
-        <ul>
-          <li><a href="#">Головна</a></li>
-          <li><a href="/about-site.html">Про нас</a></li>
-          <li><a href="/hotel-house.html">Забронювати</a></li>
-          <li><a href="/contacts.html">Контакти</a></li>
-          <li><a href="#">UA</a></li>
-        </ul>
-      </nav>
+      <section class="header-block">
+        <nav>
+          <a href="/">
+            <img
+              title="Photo is hotel"
+              src="/images/logo.png"
+              alt="Logo site"
+            />
+          </a>
+          <ul class="header-text">
+            <li class="header-list"><a href="#" class="header-nav-link">Головна</a></li>
+            <li class="header-list"><a href="/about-site.html" class="header-nav-link">Про нас</a></li>
+            <li class="header-list"><a href="/hotel-house.html" class="header-nav-link">Забронювати</a></li>
+            <li class="header-list"><a href="/contacts.html" class="header-nav-link">Контакти</a></li>
+            <li class="header-list"><a href="#" class="header-nav-link">UA</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
     <main>
       <!-- <img src="https://picsum.photos/id/237/500/400" alt="Picture in hotel"> -->
       <section>
-        <img src="/images/123451.jpg" alt="Forest picture" width="1488" height="604">
+        <img
+          src="/images/123451.jpg"
+          alt="Forest picture"
+          width="1488"
+          height="604"
+        />
         <h1>HolidayTime</h1>
         <p>Автентичний відпочинок серед українського колориту!</p>
       </section>
       <section>
-        <img src="/images/house_hotel.jpg" alt="House">
+        <img src="/images/house_hotel.jpg" alt="House" />
         <p>
           Полонини Карпат, у селі Орів посеред гір розташувався затишний куточок
           для незабутніх вражень. Справжні українські гори, власноручне
@@ -36,30 +48,39 @@
         </p>
         <button>Переглянути</button>
       </section>
-      <section>
+      <section class="section-people">
         <img src="/images/people.jpg" alt="People speaking" />
         <p>
           Активний відпочинок у нетипових лоцаціях. Незаймана природа та
           місцевий колорит подарують Вам незабутні враження.
         </p>
       </section>
-      <section>
+      <section class="form">
         <form autocomplete="on" novalidate>
           <h2>Зворотній зв'язок</h2>
           <label>
             Ім'я
-            <input type="name" name="user_name" autofocus placeholder="Вкажіть своє ім'я">
+            <input
+              type="name"
+              name="user_name"
+              autofocus
+              placeholder="Вкажіть своє ім'я"
+            />
           </label>
           <label>
             Номер телефону
-            <input type="tel" name="phone" placeholder="Вкажіть номер телефону">
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Вкажіть номер телефону"
+            />
           </label>
-          <button type="submit">Запросити виклик</button>
+          <button type="submit" class="button">Запросити виклик</button>
         </form>
       </section>
     </main>
     <footer>
-        <p>© 2021 HolidayTime.  All rights reserved.</p>
+      <p>© 2021 HolidayTime. All rights reserved.</p>
     </footer>
   </body>
 </html>

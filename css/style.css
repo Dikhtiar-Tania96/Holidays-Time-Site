@@ -1,0 +1,50 @@
+body{
+    background-color: #66ae70;
+    color: black;
+}
+.header-block{
+   background-color: #255224;
+  
+}
+
+.header-list{
+    list-style: none;
+}
+
+.header-nav-link{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+} 
+
+.header-nav-link:hover{
+    color: rgb(88, 233, 80);
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.section-people{
+    background-color: #F2EEEE;
+}
+
+.form{
+    background-color: #F2EEEE;
+    border: 3px solid #255224;
+}
+
+.button{
+    background-color: #255224;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+.button:hover {
+background-color: rgb(9, 240, 78);
+color: black;
+border: 1px solid black;
+box-shadow: 10px 5px 5px rgb(13, 64, 22);
+}
+
+
