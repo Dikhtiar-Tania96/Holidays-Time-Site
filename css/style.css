@@ -1,10 +1,17 @@
+:root{
+    --bg-color: #66ae70;
+    --bg-header: #255224;
+    --text-color: black;
+
+    --text-color-white: #FFFFFF;
+}
+
 body{
-    background-color: #66ae70;
-    color: black;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 .header-block{
-   background-color: #255224;
-  
+   background-color: var(--bg-header);
 }
 
 .header-list{
@@ -12,7 +19,7 @@ body{
 }
 
 .header-nav-link{
-    color: white;
+    color: var(--text-color-white);
     cursor: pointer;
     text-decoration: none;
 } 
@@ -35,7 +42,7 @@ body{
 .button{
     background-color: #255224;
     border: none;
-    color: white;
+    color: var(--text-color-white);
     padding: 10px;
     cursor: pointer; 
 }
@@ -48,3 +55,10 @@ box-shadow: 10px 5px 5px rgb(13, 64, 22);
 }
 
 
+.footer{
+    background-color: var(--bg-header);
+    color: var(--text-color-white);
+}
+
+.hhh{
+}
