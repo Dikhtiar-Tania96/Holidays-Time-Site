@@ -1,64 +1,143 @@
-:root{
-    --bg-color: #66ae70;
-    --bg-header: #255224;
-    --text-color: black;
+:root {
+  --bg-color: #66ae70;
+  --bg-header: #255224;
+  --text-color: black;
 
-    --text-color-white: #FFFFFF;
+  --text-color-white: #ffffff;
+  --title-site-color: #95d59b;
 }
 
-body{
-    background-color: var(--bg-color);
-    color: var(--text-color);
-}
-.header-block{
-   background-color: var(--bg-header);
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "PT Sans";
 }
 
-.header-list{
-    list-style: none;
+.header-block {
+  background-color: var(--bg-header);
 }
 
-.header-nav-link{
-    color: var(--text-color-white);
-    cursor: pointer;
-    text-decoration: none;
-} 
-
-.header-nav-link:hover{
-    color: rgb(88, 233, 80);
-    font-size: 18px;
-    text-decoration: underline;
+.header-list {
+  list-style: none;
 }
 
-.section-people{
-    background-color: #F2EEEE;
+.header-nav-link {
+  color: var(--text-color-white);
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.form{
-    background-color: #F2EEEE;
-    border: 3px solid #255224;
+.header-nav-link:hover {
+  color: rgb(88, 233, 80);
+  font-size: 26px;
+  text-decoration: underline;
 }
 
-.button{
-    background-color: #255224;
-    border: none;
-    color: var(--text-color-white);
-    padding: 10px;
-    cursor: pointer; 
+.section-people {
+  background-color: #f2eeee;
+}
+
+.form {
+  background-color: #f2eeee;
+  border: 3px solid #255224;
+  padding: 10px;
+}
+
+.button {
+  background-color: #255224;
+  border: none;
+  color: var(--text-color-white);
+  padding: 26px;
+  cursor: pointer;
+  font-size: 26px;
 }
 
 .button:hover {
-background-color: rgb(9, 240, 78);
-color: black;
-border: 1px solid black;
-box-shadow: 10px 5px 5px rgb(13, 64, 22);
+  background-color: rgb(9, 240, 78);
+  color: black;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px rgb(13, 64, 22);
 }
 
+.footer {
+  background-color: var(--bg-header);
+  color: var(--text-color-white);
+  font-size: 36px;
+  font-style: italic;
+  padding: 21px;
+}
 
-.footer{
-    background-color: var(--bg-header);
+.footer-title {
+  text-decoration: underline;
+}
+
+.title_site {
+  background-color: var(--title-site-color);
+  padding: 30px;
+  font-style: italic;
+}
+
+.text-elem {
+  background-color: var(--bg-header);
+  color: var(--text-color-white);
+  font-size: 26px;
+}
+
+.caption-site {
+  color: var(--text-color-white);
+  font-weight: bold;
+  font-size: 75px;
+}
+
+.desc-site {
+  color: var(--text-color-white);
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.section-index {
+  font-size: 24px;
+  font-style: italic;
+  background-color: var(--text-color-white);
+}
+
+.label-form {
+  font-size: 30px;
+}
+
+/* about-site */
+.caption-about-site{
     color: var(--text-color-white);
+    font-size: 48px;
+    font-weight: bold;
 }
 
-.hhh{
+.subtitle-about-site{
+    color: var(--text-color-white);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+}
+.list-text-section{
+background-color: var(--text-color-white);
+padding: 70px;
+}
+
+.list-text{
+    font-size: 30px;
+}
+
+/* hotel-house */
+.section-house{
+    background-color: var(--bg-header);
+    padding: 10px;
+    margin: 30px;
+}
+
+.house-hotel{
+    background-color: var(--title-site-color);
+    font-size: 22px;
 }
