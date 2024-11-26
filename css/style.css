@@ -1,3 +1,7 @@
+/* * {
+  box-sizing: border-box;
+} */
+
 :root {
   --bg-color: #66ae70;
   --bg-header: #255224;
@@ -5,6 +9,8 @@
 
   --text-color-white: #ffffff;
   --title-site-color: #95d59b;
+
+  --action-color-text:rgb(88, 233, 80);
 }
 
 body {
@@ -13,28 +19,70 @@ body {
   font-family: "PT Sans";
 }
 
+/* index */
 .header-block {
   background-color: var(--bg-header);
 }
 
-.header-list {
-  list-style: none;
+.navi-head{
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
-.header-nav-link {
+.list-header{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 93px;
+}
+
+.header-list {
+  margin-left: 40px;
+  color:var(--action-color-text);
+  /* font-size: 56px; */
+}
+
+.header-nav-active{
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--text-color-white);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-nav{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color:var(--logo-style-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.header-nav:hover{
+  color: var(--action-color-text);
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+
+/* /* .header-nav-link {
   color: var(--text-color-white);
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: bold;
-}
+} */
 
-.header-nav-link:hover {
-  color: rgb(88, 233, 80);
-  font-size: 26px;
-  text-decoration: underline;
-}
 
 .section-people {
   background-color: #f2eeee;
@@ -56,7 +104,7 @@ body {
 }
 
 .button:hover {
-  background-color: rgb(9, 240, 78);
+  background-color: var(--action-color-text);
   color: black;
   border: 1px solid black;
   box-shadow: 10px 5px 5px rgb(13, 64, 22);
@@ -80,6 +128,7 @@ body {
   background-color: var(--bg-header);
   color: var(--text-color-white);
   font-size: 26px;
+  padding: 30px;
 }
 
 .caption-site {
@@ -98,6 +147,8 @@ body {
   font-size: 24px;
   font-style: italic;
   background-color: var(--text-color-white);
+  box-sizing: border-box;
+  padding: 30px;
 }
 
 .label-form {
@@ -152,3 +203,7 @@ body {
     list-style: none;
     padding: 0;
 }
+
+
+
+
