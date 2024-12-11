@@ -11,51 +11,74 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-
   </head>
-  <body>
+  <body class="body">
     <header>
-      <section class="header-block">
-      <nav>
-        <a href="/index.html">
-          <img title="Photo is hotel" src="/images/logo.png" alt="Logo site" />
-        </a>
-        <ul class="header-text">
-          <li class="header-list"><a href="/index.html" class="header-nav-link">Головна</a></li>
-          <li class="header-list"><a href="#" class="header-nav-link" >Про нас</a></li>
-          <li class="header-list"><a href="/hotel-house.html" class="header-nav-link">Забронювати</a></li>
-          <li class="header-list"><a href="/contacts.html" class="header-nav-link">Контакти</a></li>
-        </ul>
-      </nav>
-    </section>
+      <div class="container">
+        <section class="header-block">
+          <div class="container">
+            <nav class="navi-head">
+              <a href="/index.html">
+                <img
+                  title="Photo is hotel"
+                  src="/images/logo.png"
+                  alt="Logo site"
+                />
+              </a>
+              <ul class="list-header">
+                <li class="header-list">
+                  <a href="/index.html" class="header-nav">Головна</a>
+                </li>
+                <li class="header-list">
+                  <a href="#" class="header-nav-active">Про нас</a>
+                </li>
+                <li class="header-list">
+                  <a href="/hotel-house.html" class="header-nav">Забронювати</a>
+                </li>
+                <li class="header-list">
+                  <a href="/contacts.html" class="header-nav">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+      </div>
     </header>
     <main>
-     <h1 class="title_site">Про нас</h1>
-      <section>
-        <img src="./images/Rectangle 39.jpg" alt="picture in forest" />
-        <h2 class="caption-about-site">HolidayTime</h2>
-        <p class="subtitle-about-site">
-          Відпочинок, емоції, враження, нетипові маршрути, неймовірні локації -
-          це все про сільський еко-туризм в Україні
-        </p>
-      </section>
+      <div class="container">
+        <h1 class="title_site">Про нас</h1>
+        <section class="picture-section">
+          <div class="container">
+            <!-- <img src="./images/Rectangle 39.jpg" alt="picture in forest" /> -->
+              <h2 class="caption-about-site">HolidayTime</h2>
+              <p class="subtitle-about-site">
+                Відпочинок, емоції, враження, нетипові маршрути, неймовірні
+                локації - це все про сільський еко-туризм в Україні
+              </p>
+          </div>
+        </section>
+      </div>
       <section class="list-text-section">
-        <p class="list-text">
-          Наша команда зібрала найколоритніші місця нашої країни саме для тебе.
-        </p>
-
-        <p class="list-text">
-          Місія нашої компанії подарувати незабутні враження та показати Україну
-          з іншої сторони. Пройти разом з Вами лісовими стежками, щоб попоїсти
-          свіжого карпатського сиру. Пірнути у каньйон та побачити занурене під
-          товщу років село Бакота. Покататись на гандолах в “українській
-          Венеції”.
-        </p>
-        <p class="list-text">Пізнати Україну разом!</p>
+        <div class="container">
+          <p class="list-text">
+            Наша команда зібрала найколоритніші місця нашої країни саме для
+            тебе.
+          </p>
+          <p class="list-text">
+            Місія нашої компанії подарувати незабутні враження та показати
+            Україну з іншої сторони. Пройти разом з Вами лісовими стежками, щоб
+            попоїсти свіжого карпатського сиру. Пірнути у каньйон та побачити
+            занурене під товщу років село Бакота. Покататись на гандолах в
+            “українській Венеції”.
+          </p>
+          <p class="list-text">Пізнати Україну разом!</p>
+        </div>
       </section>
     </main>
     <footer>
-      <p class="footer">© 2021 HolidayTime.  All rights reserved.</p>
+      <div class="container">
+        <p class="footer">© 2021 HolidayTime. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>

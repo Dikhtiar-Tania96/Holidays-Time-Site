@@ -14,7 +14,9 @@
   </head>
   <body class="body">
     <header>
+      <div class="container">
       <section class="header-block">
+        <div class="container">
         <nav class="navi-head">
           <a href="/">
             <img
@@ -31,43 +33,45 @@
               <a href="/about-site.html" class="header-nav">Про нас</a>
             </li>
             <li class="header-list">
-              <a href="/hotel-house.html" class="header-nav">Забронювати</a>
+              <a href="/hotel-house.html" class="header-nav">Будинки</a>
             </li>
             <li class="header-list">
               <a href="/contacts.html" class="header-nav">Контакти</a>
             </li>
           </ul>
         </nav>
+      </div>
       </section>
+    </div>
     </header>
     <main>
-      <section>
-        <img
-          src="/images/123451.jpg"
-          alt="Forest picture"
-          width="1488"
-          height="604"
-        />
+      <section class="container">
+        <div class="nav-section">
         <h1 class="caption-site">HolidayTime</h1>
-        <p class="desc-site">Автентичний відпочинок серед українського колориту!</p>
-      </section>
+        <p class="desc-site">Автентичний відпочинок серед <br>українського колориту!</p>
+      </div>
+    </section>
       <section>
-        <img src="/images/house_hotel.jpg" alt="House" />
+        <div class="container house_section">
+        <img src="/images/house_hotel.jpg" alt="House" width="1400" height="600"/>
         <p class="section-index">
           Полонини Карпат, у селі Орів посеред гір розташувався затишний куточок
           для незабутніх вражень. Справжні українські гори, власноручне
           сироваріння на полонині, водоспади та вікові дерева чекають на Вас.
         </p>
-        <button>Переглянути</button>
+        </div>
       </section>
-      <section class="section-people">
-        <img src="/images/people.jpg" alt="People speaking" />
+      <section class="container">
+        <div class="section-people">
+        <img src="/images/people.jpg" alt="People speaking" width="450"/>
         <p class="text-elem">
           Активний відпочинок у нетипових лоцаціях. Незаймана природа та
           місцевий колорит подарують Вам незабутні враження.
         </p>
+      </div>
       </section>
-      <section class="form">
+      <section class="container">
+        <div class="form">
         <form autocomplete="on" novalidate>
           <h2 class="label-form">Зворотній зв'язок</h2>
           <label class="label-form">
@@ -88,10 +92,13 @@
           </label>
           <button type="submit" class="button">Запросити виклик</button>
         </form>
+      </div>
       </section>
     </main>
     <footer>
+      <div class="container">
       <p class="footer">© 2021 HolidayTime. All rights reserved.</p>
-    </footer>
+    </div>
+  </footer>
   </body>
 </html>
