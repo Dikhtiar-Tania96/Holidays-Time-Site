@@ -187,7 +187,7 @@ body {
   font-weight: bold;
   text-align: center;
   margin-left: 30px;
-  text-align: center;
+  text-align: center ;
 }
 
 
@@ -220,7 +220,7 @@ body {
 }
 
 .contact {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .list-contact {
@@ -247,3 +247,19 @@ body {
     url(../images/Rectangle\ 39.jpg);
   background-position: center;
 }
+
+.contact-other{
+  border: 3px solid var(--bg-header);
+  padding: 10px;
+
+/* display: flex; */
+}
+
+.list-contact-top{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center
+};

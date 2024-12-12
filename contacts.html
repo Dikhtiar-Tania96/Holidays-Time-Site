@@ -15,61 +15,87 @@
 
   <body class="body">
     <header>
-      <section class="header-block">
-        <nav class="navi-head">
-          <a href="./index.html">
-            <img
-              title="Photo is hotel"
-              src="/images/logo.png"
-              alt="Logo site"
-            />
-          </a>
-          <ul class="list-header">
-            <li  class="header-list"><a href="/index.html" class="header-nav">Головна</a></li>
-            <li  class="header-list">
-              <a href="/about-site.html" class="header-nav">Про нас</a>
-            </li>
-            <li  class="header-list">
-              <a href="/hotel-house.html" class="header-nav"
-                >Забронювати</a
-              >
-            </li>
-            <li  class="header-list"><a href="/" class="header-nav-active">Контакти</a></li>
-          </ul>
-        </nav>
-      </section>
+      <div class="container">
+        <section class="header-block">
+          <nav class="navi-head">
+            <a href="./index.html">
+              <img
+                title="Photo is hotel"
+                src="/images/logo.png"
+                alt="Logo site"
+              />
+            </a>
+            <ul class="list-header">
+              <li class="header-list">
+                <a href="/index.html" class="header-nav">Головна</a>
+              </li>
+              <li class="header-list">
+                <a href="/about-site.html" class="header-nav">Про нас</a>
+              </li>
+              <li class="header-list">
+                <a href="/hotel-house.html" class="header-nav">Забронювати</a>
+              </li>
+              <li class="header-list">
+                <a href="/" class="header-nav-active">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </div>
     </header>
     <main>
-      <h1 class="title_site">Контакти</h1>
+      <div class="container">
+        <h1 class="title_site">Контакти</h1>
+      </div>
       <section>
-        <h2 class="footer-title">Телефон</h2>
-        <p class="contact">+38(097)119-89-83</p>
+        <div class="container">
+          <ul class="list-contact-top">
+            <li class="contact-other">
+              <h2 class="footer-title">Телефон</h2>
+              <p class="contact">+38(097)119-89-83</p>
+            </li>
 
-        <h2 class="footer-title">Графік роботи</h2>
-        <ul class="list-contact">
-          <li class="contact">пн-пт 08:00-22:00</li>
-          <li class="contact">сб 09:00-21:00</li>
-          <li class="contact">вс 10:00-20:00</li>
-        </ul>
-
-        <h2 class="footer-title">Ел.пошта</h2>
-        <p class="contact">hello@gmail.com</p>
+            <li class="contact-other">
+              <h2 class="footer-title">Графік роботи</h2>
+              <ul class="list-contact">
+                <li class="contact">пн-пт 08:00-22:00</li>
+                <li class="contact">сб 09:00-21:00</li>
+                <li class="contact">вс 10:00-20:00</li>
+              </ul>
+            </li>
+            <li class="contact-other">
+              <h2 class="footer-title">Ел.пошта</h2>
+              <a href="mailto:info@devstudio.com" class="contact">hello@gmail.com</a>
+              
+            </li>
+          </ul>
+        </div>
       </section>
-      
+
       <section>
-        <h2 class="footer-title">Адреса сайту</h2>
-        <p class="contact">м. Київ, вул. Малевича, буд. 4</p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.7125645211604!2d30.508627876096433!3d50.427826788993045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf1e3ee89c35%3A0x9004f0857426acae!2z0LLRg9C70LjRhtGPINCa0LDQt9C40LzQuNGA0LAg0JzQsNC70LXQstC40YfQsCwgNCwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1731404488936!5m2!1sru!2sua"
-          width="600"
-          height="450"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <div class="container">
+          <ul class="list-contact-top">
+            <li>
+              <h2 class="footer-title">Адреса сайту</h2>
+              <p class="contact">м. Київ, вул. Малевича, буд. 4</p>
+            </li>
+            <li>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.7125645211604!2d30.508627876096433!3d50.427826788993045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf1e3ee89c35%3A0x9004f0857426acae!2z0LLRg9C70LjRhtGPINCa0LDQt9C40LzQuNGA0LAg0JzQsNC70LXQstC40YfQsCwgNCwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1731404488936!5m2!1sru!2sua"
+                width="600"
+                height="450"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer>
+      <div class="container">
       <p class="footer">© 2021 HolidayTime. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
