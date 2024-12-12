@@ -188,13 +188,11 @@ body {
   text-align: center;
   margin: 0;
 }
-/* .list-text-section {
-  background-color: var(--text-color-white);
-  padding: 50px;
-} */
+
 
 .list-text {
   font-size: 30px;
+  text-align: center;
 }
 
 /* hotel-house */
