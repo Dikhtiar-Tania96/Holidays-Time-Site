@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  width: 1400px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -186,7 +186,8 @@ body {
   font-style: italic;
   font-weight: bold;
   text-align: center;
-  margin: 0;
+  margin-left: 30px;
+  text-align: center;
 }
 
 
@@ -199,12 +200,17 @@ body {
 .section-house {
   background-color: var(--bg-header);
   padding: 10px;
-  margin: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+
 .house-hotel {
-  background-color: var(--title-site-color);
+  color: var(--text-color-white);
   font-size: 22px;
+  text-align: center;
 }
 
 /* contact */
